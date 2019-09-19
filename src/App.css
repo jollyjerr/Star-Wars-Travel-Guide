@@ -1,22 +1,23 @@
-.App {
-  text-align: center;
+h2 {
+    color: yellow;
 }
 
-.App-logo {
-  height: 40vmin;
+.film {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: lightgray;
+    color: whitesmoke;
+    border: 0.1em solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.planetContainer {
+    width: 50%;
+    color: green;
 }
 
-.App-link {
-  color: #09d3ac;
+.starshipContainer {
+    width: 50%;
+    color: blueviolet;
 }

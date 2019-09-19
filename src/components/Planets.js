@@ -25,7 +25,8 @@ export default class Planets extends Component {
 
     render() {
         return (
-            <div>
+            <div className="planetContainer">
+            <h2>Planets</h2>
                 {this.planetCards()}
             </div>
         )

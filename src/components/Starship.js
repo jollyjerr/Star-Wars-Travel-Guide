@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Starship(props) {
     return (
-        <div>
+        <div className="starship">
             <p> {props.starship.name} </p>
         </div>
     )
